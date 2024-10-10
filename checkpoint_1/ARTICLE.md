@@ -6,7 +6,9 @@ Este projeto desenvolve uma aplicação Java para compactar sequências de nucle
 
 ## Seção 2 - Fundamentos
 
+Neste projeto seguimos com a programação orientada a objetos (POO) em Java para otimizar o processo de compressão de arquivos, além do uso de hierarquia de classes para garantir uma estrutura organizada a lógica de leitura de arquivos, processamento da sequência de nucleotídeos e geração do arquivo comprimido. 
 
+Ao executarmos o processo de compressão, contamos com polimorfismo a fim de garantir que o método responsável pela compressão trate diferentes formatos de entrada de forma uniforme, assegurando que o comportamento se mantenha consistente, independentemente do tamanho do arquivom, se tornando um tratamento modular e escalável.
 
 ## Seção 3 - Metodologia
 
