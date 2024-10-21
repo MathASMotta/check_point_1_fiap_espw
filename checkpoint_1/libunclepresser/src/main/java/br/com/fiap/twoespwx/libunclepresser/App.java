@@ -54,23 +54,23 @@ public class App {
             System.out.println("|                                                           |");
             System.out.println(" -----------------------------------------------------------");
             System.out.println("|                                                           |");
-            System.out.printf("| INPUT FILE SIZE: %.2fKB                                 |\n", inputFileSizeKB);
+            System.out.printf("| INPUT FILE SIZE: %.2fKB                                   |\n", inputFileSizeKB);
             System.out.println("|                                                           |");
-            System.out.printf("| TOTAL INPUT CHARACTERS: %,d                         |\n", originalSize);
+            System.out.printf("| TOTAL INPUT CHARACTERS: %,d                             |\n", originalSize);
             System.out.println("|                                                           |");
             System.out.println("| FREQUENCIES:                                              |");
             frequencies.forEach((character, count) -> {
                 double percentage = (count / (double) originalSize) * 100;
-                System.out.printf("| %c: %,d (%.2f%%)                                    |\n", character, count, percentage);
+                System.out.printf("| %c: %,d (%.2f%%)                                           |\n", character, count, percentage);
             });
             System.out.println("|                                                           |");
             System.out.println("| OPTIONS:                                                  |");
             System.out.println("|                                                           |");
             System.out.println("| ALGORITHM: Run-Length Encoding (RLE)                      |");
             System.out.println("| TEXT-CODIFICATION: UTF-8                                  |");
-            System.out.printf("| COMPRESSION RATE: =~ %.2f%%                              |\n", compressionRate);
+            System.out.printf("| COMPRESSION RATE: =~ %.2f%%                               |\n", compressionRate);
             System.out.println("|                                                           |");
-            System.out.printf("| OUTPUT FILE SIZE: %.2f KB                                |\n", outputFileSizeKB);
+            System.out.printf("| OUTPUT FILE SIZE: %.2f KB                                 |\n", outputFileSizeKB);
             System.out.println("|                                                           |");
             System.out.println(" -----------------------------------------------------------");
             System.out.println("|                                                           |");
